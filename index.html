@@ -12,38 +12,53 @@
 <body>
 <div id="wb_DesktopBG" style="position:absolute;left:0px;top:0px;width:640px;height:480px;z-index:0;">
 <img src="images/98GayDesktopBlank.png" id="DesktopBG" alt=""></div>
-<div id="wb_Shape1" style="position:absolute;left:0px;top:73px;width:75px;height:56px;z-index:1;">
-<a href="#"><img src="images/img0001.png" id="Shape1" alt="" style="width:75px;height:56px;"></a></div>
-<div id="wb_Desktop" style="position:absolute;left:14px;top:12px;width:47px;height:53px;z-index:2;">
+<div id="wb_Egg001_1" style="position:absolute;left:441px;top:26px;width:193px;height:281px;visibility:hidden;z-index:1;">
+<img src="images/ImageWindow.png" id="Egg001_1" alt=""></div>
+<div id="wb_Egg001_2" style="position:absolute;left:454px;top:88px;width:154px;height:173px;visibility:hidden;z-index:2;">
+<img src="images/EasterEgg001.gif" id="Egg001_2" alt=""></div>
+<div id="wb_Egg001_3" style="position:absolute;left:575px;top:30px;width:54px;height:18px;visibility:hidden;z-index:3;">
+<a href="#" onclick="ShowObject('wb_Egg001_1', 0);ShowObject('wb_Egg001_2', 0);ShowObject('wb_Egg001_3', 0);return false;"><img src="images/98IconCloseCrap.png" id="Egg001_3" alt="" title="BEGONE BITCH!"></a></div>
+<div id="wb_Vol" style="position:absolute;left:501px;top:316px;width:81px;height:136px;visibility:hidden;z-index:4;">
+<a href="#" onclick="ShowObject('wb_Vol', 0);ShowObject('wb_VolMute', 0);return false;"><img src="images/98IconVol.png" id="Vol" alt=""></a></div>
+<div id="wb_VolMute" style="position:absolute;left:506px;top:430px;width:53px;height:19px;visibility:hidden;z-index:5;">
+<a href="#" onclick="StopAudio('SoundBlaster16ISA');ShowObject('wb_Vol', 0);ShowObject('wb_VolMute', 0);return false;"><img src="images/98IconVolMute.png" id="VolMute" alt="" title="Mute This Bitch"></a></div>
+<div id="wb_Desktop" style="position:absolute;left:14px;top:12px;width:47px;height:53px;z-index:6;">
 <a href="./index.html" title="Desktop" onclick="PlayAudio('error');return false;"><img src="images/98IconDesktop.png" id="Desktop" alt=""></a></div>
-<div id="wb_My_Documents" style="position:absolute;left:0px;top:74px;width:77px;height:55px;z-index:3;">
-<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 1);ShowObject('wb_DocumantsFolderClose', 1);return false;"><img src="images/98IconDocuments.png" id="My_Documents" alt=""></a></div>
-<div id="wb_DickSword" style="position:absolute;left:0px;top:129px;width:69px;height:74px;z-index:4;">
-<a href="https://discord.gg/rDnaBfp" onclick="PlayAudio('ding');window.location.href='https://discord.gg/rDnaBfp';return false;"><img src="images/98iconDickSword.png" id="DickSword" alt=""></a></div>
-<div id="wb_Steam" style="position:absolute;left:11px;top:213px;width:47px;height:55px;z-index:5;">
-<a href="https://steamcommunity.com/id/PlushBanshee/" onclick="PlayAudio('ding');window.location.href='https://steamcommunity.com/id/PlushBanshee/';return false;"><img src="images/98IconSteam.png" id="Steam" alt=""></a></div>
-<div id="wb_Image6" style="position:absolute;left:0px;top:452px;width:58px;height:28px;z-index:6;">
-<a href="#" onclick="ShowObject('wb_StartMenu', 1);PlayAudio('Logon');return false;"><img src="images/98IconStartButton.png" id="Image6" alt=""></a></div>
-<div id="wb_StartMenu" style="position:absolute;left:0px;top:110px;width:179px;height:342px;visibility:hidden;z-index:7;">
-<a href="#" onclick="ShowObject('wb_StartMenu', 0);return false;"><img src="images/98IconStart.png" id="StartMenu" alt=""></a></div>
-<div id="wb_Image1" style="position:absolute;left:756px;top:121px;width:565px;height:596px;z-index:8;">
-<img src="images/BlankCover.png" id="Image1" alt=""></div>
-<div id="wb_ding" style="position:absolute;left:778px;top:137px;width:50px;height:50px;z-index:9;">
+<div id="wb_My_Documents" style="position:absolute;left:0px;top:74px;width:77px;height:55px;z-index:7;">
+<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 1);ShowObject('wb_DocumantsFolderClose', 1);return false;"><img src="images/98IconDocuments.png" id="My_Documents" alt="" title="My Documents"></a></div>
+<div id="wb_DickSword" style="position:absolute;left:0px;top:129px;width:69px;height:74px;z-index:8;">
+<a href="https://discord.gg/rDnaBfp" onclick="PlayAudio('ding');window.location.href='https://discord.gg/rDnaBfp';return false;"><img src="images/98iconDickSword.png" id="DickSword" alt="" title="DickSword Server"></a></div>
+<div id="wb_Steam" style="position:absolute;left:11px;top:213px;width:47px;height:55px;z-index:9;">
+<a href="https://steamcommunity.com/id/PlushBanshee/" onclick="PlayAudio('ding');window.location.href='https://steamcommunity.com/id/PlushBanshee/';return false;"><img src="images/98IconSteam.png" id="Steam" alt="" title="Steam"></a></div>
+<div id="wb_StartButton" style="position:absolute;left:0px;top:452px;width:58px;height:28px;z-index:10;">
+<a href="#" onclick="ShowObject('wb_StartMenu', 1);PlayAudio('Logon');return false;"><img src="images/98IconStartButton.png" id="StartButton" alt="" title="Start"></a></div>
+<div id="wb_StartMenu" style="position:absolute;left:0px;top:110px;width:179px;height:342px;visibility:hidden;z-index:11;">
+<a href="#" onclick="ShowObject('wb_StartMenu', 0);StopAudio('Logon');return false;"><img src="images/98IconStart.png" id="StartMenu" alt=""></a></div>
+<div id="wb_Hiddy" style="position:absolute;left:756px;top:121px;width:565px;height:596px;z-index:12;">
+<img src="images/BlankCover.png" id="Hiddy" alt=""></div>
+<div id="wb_ding" style="position:absolute;left:778px;top:137px;width:50px;height:50px;z-index:13;">
 <audio src="ding.wav" id="ding">
 </audio>
 </div>
-<div id="wb_Logon" style="position:absolute;left:828px;top:137px;width:50px;height:50px;z-index:10;">
+<div id="wb_Logon" style="position:absolute;left:828px;top:137px;width:50px;height:50px;z-index:14;">
 <audio src="logon.wav" id="Logon">
 </audio>
 </div>
-
-<div id="wb_error" style="position:absolute;left:878px;top:137px;width:50px;height:50px;z-index:12;">
+<div id="wb_error" style="position:absolute;left:878px;top:137px;width:50px;height:50px;z-index:15;">
 <audio src="error.wav" id="error">
 </audio>
 </div>
-<div id="wb_DocumantsFolder" style="position:absolute;left:145px;top:31px;width:416px;height:389px;visibility:hidden;z-index:13;">
+<div id="wb_DocumantsFolder" style="position:absolute;left:145px;top:31px;width:416px;height:389px;visibility:hidden;z-index:16;">
 <img src="images/98GayDocuments.png" id="DocumantsFolder" alt=""></div>
-<div id="wb_DocumantsFolderClose" style="position:absolute;left:503px;top:35px;width:54px;height:18px;visibility:hidden;z-index:14;">
-<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 0);ShowObject('wb_DocumantsFolderClose', 0);return false;"><img src="images/98IconCloseCrap.png" id="DocumantsFolderClose" alt=""></a></div>
+<div id="wb_DocumantsFolderClose" style="position:absolute;left:503px;top:35px;width:54px;height:18px;visibility:hidden;z-index:17;">
+<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 0);ShowObject('wb_DocumantsFolderClose', 0);return false;"><img src="images/98IconCloseCrap.png" id="DocumantsFolderClose" alt="" title="Close"></a></div>
+<div id="wb_DiscordSmall" style="position:absolute;left:94px;top:452px;width:20px;height:28px;z-index:18;">
+<a href="https://discord.gg/rDnaBfp" onclick="PlayAudio('ding');window.location.href='https://discord.gg/rDnaBfp';return false;"><img src="images/98IconDickSwordSmall.png" id="DiscordSmall" alt="" title="Mini DickSword Server How Imersive is this shit"></a></div>
+<div id="wb_SoundBlaster16ISA" style="position:absolute;left:928px;top:137px;width:50px;height:50px;z-index:19;">
+<audio src="SoundBlaster16ISA.wav" id="SoundBlaster16ISA" loop>
+</audio>
+</div>
+<div id="wb_Volsmasll" style="position:absolute;left:560px;top:452px;width:22px;height:28px;z-index:20;">
+<a href="#" onclick="ShowObject('wb_Vol', 1);ShowObject('wb_VolMute', 1);PlayAudio('SoundBlaster16ISA');ShowObject('wb_Egg001_1', 1);ShowObject('wb_Egg001_2', 1);ShowObject('wb_Egg001_3', 1);return false;"><img src="images/98IconVolSmall.png" id="Volsmasll" alt="" title="Vol"></a></div>
 </body>
 </html>

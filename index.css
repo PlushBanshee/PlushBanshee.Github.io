@@ -19,9 +19,55 @@ body
    width: 100%;
    height: 100%;
 }
-#Shape1
+#Egg001_1
 {
-   border-width: 0;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Egg001_2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Egg001_3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Vol
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#VolMute
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Desktop
 {
@@ -63,7 +109,7 @@ body
    width: 100%;
    height: 100%;
 }
-#Image6
+#StartButton
 {
    border: 0px solid #000000;
    padding: 0;
@@ -83,7 +129,7 @@ body
    width: 100%;
    height: 100%;
 }
-#Image1
+#Hiddy
 {
    border: 0px solid #000000;
    padding: 0;
@@ -125,6 +171,33 @@ body
    height: 100%;
 }
 #DocumantsFolderClose
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#DiscordSmall
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SoundBlaster16ISA
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Volsmasll
 {
    border: 0px solid #000000;
    padding: 0;
