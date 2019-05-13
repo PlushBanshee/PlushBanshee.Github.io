@@ -129,6 +129,26 @@ body
    width: 100%;
    height: 100%;
 }
+#StartClose
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#StartDocumants
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #Hiddy
 {
    border: 0px solid #000000;
@@ -171,6 +191,16 @@ body
    height: 100%;
 }
 #DocumantsFolderClose
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#DocumantsPlushCommands
 {
    border: 0px solid #000000;
    padding: 0;
