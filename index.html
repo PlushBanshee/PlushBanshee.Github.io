@@ -17,7 +17,7 @@
 <div id="wb_Desktop" style="position:absolute;left:14px;top:12px;width:47px;height:53px;z-index:2;">
 <a href="./index.html" title="Desktop" onclick="PlayAudio('error');return false;"><img src="images/98IconDesktop.png" id="Desktop" alt=""></a></div>
 <div id="wb_My_Documents" style="position:absolute;left:0px;top:74px;width:77px;height:55px;z-index:3;">
-<a href="#" onclick="PlayAudio('ding');return false;"><img src="images/98IconDocuments.png" id="My_Documents" alt=""></a></div>
+<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 1);ShowObject('wb_DocumantsFolderClose', 1);return false;"><img src="images/98IconDocuments.png" id="My_Documents" alt=""></a></div>
 <div id="wb_DickSword" style="position:absolute;left:0px;top:129px;width:69px;height:74px;z-index:4;">
 <a href="https://discord.gg/rDnaBfp" onclick="PlayAudio('ding');window.location.href='https://discord.gg/rDnaBfp';return false;"><img src="images/98iconDickSword.png" id="DickSword" alt=""></a></div>
 <div id="wb_Steam" style="position:absolute;left:11px;top:213px;width:47px;height:55px;z-index:5;">
@@ -41,5 +41,9 @@
 <audio src="error.wav" id="error">
 </audio>
 </div>
+<div id="wb_DocumantsFolder" style="position:absolute;left:145px;top:31px;width:416px;height:389px;visibility:hidden;z-index:13;">
+<img src="images/98GayDocuments.png" id="DocumantsFolder" alt=""></div>
+<div id="wb_DocumantsFolderClose" style="position:absolute;left:503px;top:35px;width:54px;height:18px;visibility:hidden;z-index:14;">
+<a href="#" onclick="PlayAudio('ding');ShowObject('wb_DocumantsFolder', 0);ShowObject('wb_DocumantsFolderClose', 0);return false;"><img src="images/98IconCloseCrap.png" id="DocumantsFolderClose" alt=""></a></div>
 </body>
 </html>
