@@ -7,10 +7,6 @@ a:visited
 {
    color: #800080;
 }
-a:active
-{
-   color: #FF0000;
-}
 a:hover
 {
    color: #0000FF;
