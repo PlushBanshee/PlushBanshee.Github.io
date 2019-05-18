@@ -129,7 +129,7 @@ body
 {
    text-align: left;
 }
-#Image1
+#patch
 {
    border: 0px solid #000000;
    padding: 0;
@@ -139,7 +139,7 @@ body
    width: 100%;
    height: 100%;
 }
-#Image2
+#info
 {
    border: 0px solid #000000;
    padding: 0;
@@ -149,7 +149,7 @@ body
    width: 100%;
    height: 100%;
 }
-#SFXscream
+#SFXspring
 {
    left: 0;
    top: 0;
@@ -158,6 +158,36 @@ body
 }
 #SFXhome
 {
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#messy
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#messy2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#rainbowbar
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
