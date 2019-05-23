@@ -238,6 +238,56 @@
    80% { transform: translate(0px,0px) rotate(0deg) ;  }
    100% { transform: translate(0px,0px) rotate(0deg) ;  }
 }
+@-webkit-keyframes transform-diagonal
+{
+   0% { -webkit-transform: rotate(0deg) ;  }
+   30% { -webkit-transform: rotate(0deg) skewX(25deg) skewY(25deg) ;  }
+   40% { -webkit-transform: rotate(0deg) skewX(-15deg) skewY(-15deg) ;  }
+   50% { -webkit-transform: rotate(0deg) skewX(15deg) skewY(15deg) ;  }
+   65% { -webkit-transform: rotate(0deg) skewX(-5deg) skewY(-5deg) ;  }
+   75% { -webkit-transform: rotate(0deg) skewX(5deg) skewY(5deg) ;  }
+   100% { -webkit-transform: rotate(0deg) skewX(0deg) skewY(0deg) ;  }
+}
+@-moz-keyframes transform-diagonal
+{
+   0% { -moz-transform: rotate(0deg) ;  }
+   30% { -moz-transform: rotate(0deg) skewX(25deg) skewY(25deg) ;  }
+   40% { -moz-transform: rotate(0deg) skewX(-15deg) skewY(-15deg) ;  }
+   50% { -moz-transform: rotate(0deg) skewX(15deg) skewY(15deg) ;  }
+   65% { -moz-transform: rotate(0deg) skewX(-5deg) skewY(-5deg) ;  }
+   75% { -moz-transform: rotate(0deg) skewX(5deg) skewY(5deg) ;  }
+   100% { -moz-transform: rotate(0deg) skewX(0deg) skewY(0deg) ;  }
+}
+@-o-keyframes transform-diagonal
+{
+   0% { -o-transform: rotate(0deg) ;  }
+   30% { -o-transform: rotate(0deg) skewX(25deg) skewY(25deg) ;  }
+   40% { -o-transform: rotate(0deg) skewX(-15deg) skewY(-15deg) ;  }
+   50% { -o-transform: rotate(0deg) skewX(15deg) skewY(15deg) ;  }
+   65% { -o-transform: rotate(0deg) skewX(-5deg) skewY(-5deg) ;  }
+   75% { -o-transform: rotate(0deg) skewX(5deg) skewY(5deg) ;  }
+   100% { -o-transform: rotate(0deg) skewX(0deg) skewY(0deg) ;  }
+}
+@-ms-keyframes transform-diagonal
+{
+   0% { -ms-transform: rotate(0deg) ;  }
+   30% { -ms-transform: rotate(0deg) skewX(25deg) skewY(25deg) ;  }
+   40% { -ms-transform: rotate(0deg) skewX(-15deg) skewY(-15deg) ;  }
+   50% { -ms-transform: rotate(0deg) skewX(15deg) skewY(15deg) ;  }
+   65% { -ms-transform: rotate(0deg) skewX(-5deg) skewY(-5deg) ;  }
+   75% { -ms-transform: rotate(0deg) skewX(5deg) skewY(5deg) ;  }
+   100% { -ms-transform: rotate(0deg) skewX(0deg) skewY(0deg) ;  }
+}
+@keyframes transform-diagonal
+{
+   0% { transform: rotate(0deg) ;  }
+   30% { transform: rotate(0deg) skewX(25deg) skewY(25deg) ;  }
+   40% { transform: rotate(0deg) skewX(-15deg) skewY(-15deg) ;  }
+   50% { transform: rotate(0deg) skewX(15deg) skewY(15deg) ;  }
+   65% { transform: rotate(0deg) skewX(-5deg) skewY(-5deg) ;  }
+   75% { transform: rotate(0deg) skewX(5deg) skewY(5deg) ;  }
+   100% { transform: rotate(0deg) skewX(0deg) skewY(0deg) ;  }
+}
 @-webkit-keyframes transform-hinge
 {
    0% { -webkit-transform-origin: top left; -webkit-transform: rotate(0deg) ;  }
