@@ -1,8 +1,8 @@
 body
 {
    background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
+   color: #FFFFFF;
+   font-family: "MS Sans Serif";
    font-weight: normal;
    font-size: 13px;
    line-height: 1.1875;
@@ -13,6 +13,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
+   -webkit-animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   -moz-animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   animation: heartbeat-1 1000ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
