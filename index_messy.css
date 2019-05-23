@@ -166,9 +166,6 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: transform-hinge 2000ms linear 0ms 1 normal both;
-   -moz-animation: transform-hinge 2000ms linear 0ms 1 normal both;
-   animation: transform-hinge 2000ms linear 0ms 1 normal both;
    margin: 0;
    left: 0;
    top: 0;
