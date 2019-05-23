@@ -13,6 +13,19 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
 #Image5
 {
    border: 0px solid #000000;
@@ -137,19 +150,6 @@ body
    text-align: center;
 }
 #wb_Text9 div
-{
-   text-align: center;
-}
-#wb_Text10 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text10 div
 {
    text-align: center;
 }
