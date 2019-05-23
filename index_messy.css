@@ -13,9 +13,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: transform-tada 400ms linear 0ms infinite normal both;
-   -moz-animation: transform-tada 400ms linear 0ms infinite normal both;
-   animation: transform-tada 400ms linear 0ms infinite normal both;
+   -webkit-animation: transform-tada 100ms linear 0ms infinite normal both;
+   -moz-animation: transform-tada 100ms linear 0ms infinite normal both;
+   animation: transform-tada 100ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
@@ -43,9 +43,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: transform-swing 1000ms linear 0ms infinite normal both;
-   -moz-animation: transform-swing 1000ms linear 0ms infinite normal both;
-   animation: transform-swing 1000ms linear 0ms infinite normal both;
+   -webkit-animation: transform-swing 500ms linear 0ms infinite normal both;
+   -moz-animation: transform-swing 500ms linear 0ms infinite normal both;
+   animation: transform-swing 500ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
@@ -56,9 +56,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: transform-swing 1000ms linear 0ms infinite normal both;
-   -moz-animation: transform-swing 1000ms linear 0ms infinite normal both;
-   animation: transform-swing 1000ms linear 0ms infinite normal both;
+   -webkit-animation: transform-swing 500ms linear 0ms infinite normal both;
+   -moz-animation: transform-swing 500ms linear 0ms infinite normal both;
+   animation: transform-swing 500ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
@@ -209,9 +209,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
-   -webkit-animation: transform-shake 1000ms linear 0ms infinite normal both;
-   -moz-animation: transform-shake 1000ms linear 0ms infinite normal both;
-   animation: transform-shake 1000ms linear 0ms infinite normal both;
+   -webkit-animation: transform-shake 200ms linear 0ms infinite normal both;
+   -moz-animation: transform-shake 200ms linear 0ms infinite normal both;
+   animation: transform-shake 200ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
