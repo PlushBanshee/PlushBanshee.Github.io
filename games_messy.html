@@ -7,34 +7,7 @@
 <link href="Untitled2.css" rel="stylesheet">
 <link href="games_messy.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="jquery-ui.min.js"></script>
-<script src="jquery.ui.effect-squares.min.js"></script>
 <script src="wwb14.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#NavigationBar1 a").mouseenter(function(e)
-   {
-      $("#NavigationBar1_wrapper").parent().remove();
-      var $wrapper = $("<div id='NavigationBar1_wrapper'></div>");
-      var $link = $("<a></a>");
-      $link.attr('href', $(this).attr('href'));
-      $link.attr('target', $(this).attr('target'));
-      $wrapper.css('left', $(this).offset().left+'px');
-      $wrapper.css('top', $(this).offset().top+'px');
-      $wrapper.css('width', $(this).find('img').width()+'px');
-      $wrapper.css('height', $(this).find('img').height()+'px');
-      $wrapper.appendTo("body");
-      $wrapper.wrap($link);
-      $wrapper.mouseout(function()
-      {
-         $('#NavigationBar1_wrapper').parent().remove();
-         $("#NavigationBar1 span").show('squares', { easing: 'linear', fx: 'rain'}, 500);
-      });
-      $(this).children("span").hide('squares', { easing: 'linear', reverse: true, fx: 'rain'}, 500);
-   });
-});
-</script>
 </head>
 <body>
 <div id="Html1" style="position:absolute;left:751px;top:229px;width:315px;height:187px;z-index:0">
@@ -49,18 +22,22 @@ $(document).ready(function()
 <img src="images/Banshee4wall.png" id="Image3" alt=""></div>
 <div id="NavigationBar1" style="position:absolute;left:38px;top:31px;width:387px;height:108px;z-index:5;">
 <ul class="navbar">
-<li><a href="https://plushbanshee.github.io/Cards"><img alt="" src="images/img0001_over.gif"><span><img alt="" src="images/img0001.gif"></span></a></li>
-<li><a href=""><img alt="" src="images/img0002_over.gif"><span><img alt="" src="images/img0002.gif"></span></a></li>
-<li><a href=""><img alt="" src="images/img0003_over.gif"><span><img alt="" src="images/img0003.gif"></span></a></li>
-<li><a href=""><img alt="" src="images/img0004_over.gif"><span><img alt="" src="images/img0004.gif"></span></a></li>
+<li><a href="https://plushbanshee.github.io/Cards"><img alt="" src="images/img0001_over.gif" class="hover"><span><img alt="" src="images/img0001.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0002_over.gif" class="hover"><span><img alt="" src="images/img0002.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0003_over.gif" class="hover"><span><img alt="" src="images/img0003.gif"></span></a></li>
+<li><a href=""><img alt="" src="images/img0004_over.gif" class="hover"><span><img alt="" src="images/img0004.gif"></span></a></li>
 </ul>
 </div>
-<div id="wb_Text1" style="position:absolute;left:198px;top:32px;width:119px;height:16px;z-index:6;" onclick="window.location.href='https://plushbanshee.github.io/Cards';return false;">
+<div id="wb_Text1" style="position:absolute;left:198px;top:32px;width:119px;height:16px;z-index:6;" onclick="window.location.href='https://plushbanshee.github.io/Cards';return false;" onmouseover="PlayAudio('MediaPlayer1');return false;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Card Game</span></div>
 <div id="wb_Button_Home" style="position:absolute;left:1363px;top:31px;width:222px;height:104px;z-index:7;">
 <a href="https://plushbanshee.github.io/" title="go back home" onmouseover="PlayAudio('Sound_Melting');AnimateCss('wb_Button_Home', 'fall', 0, 500);return false;"><img src="images/button-home.gif" id="Button_Home" alt=""></a></div>
 <div id="wb_Sound_Melting" style="position:absolute;left:75px;top:191px;width:53px;height:50px;z-index:8;">
 <audio src="Sound_Melting.ogg" id="Sound_Melting">
+</audio>
+</div>
+<div id="wb_MediaPlayer1" style="position:absolute;left:128px;top:191px;width:53px;height:50px;z-index:9;">
+<audio src="Sound_Melting.ogg" id="MediaPlayer1">
 </audio>
 </div>
 </body>

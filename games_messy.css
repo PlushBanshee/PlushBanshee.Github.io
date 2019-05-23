@@ -67,7 +67,6 @@ body
    width: 387px;
    margin: 0 0 4px 0;
    vertical-align: bottom;
-   overflow: hidden;
 }
 #NavigationBar1 ul.navbar li a
 {
@@ -89,12 +88,17 @@ body
    position: absolute;
    z-index: 2;
 }
-#NavigationBar1_wrapper
+#NavigationBar1 a .hover
 {
-   position: absolute;
-   background-color: #FFFFFF;
-   opacity: 0.00;
-   z-index: 9999;
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
 }
 #wb_Text1 
 {
@@ -120,6 +124,13 @@ body
    height: 100%;
 }
 #Sound_Melting
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MediaPlayer1
 {
    left: 0;
    top: 0;
