@@ -123,6 +123,31 @@
    75% { transform: rotateX(0deg) scale3d(0.95,1.05,1.0) ;  }
    100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
+@-webkit-keyframes newspaper
+{
+   0% { -webkit-transform: rotate(720deg) scale(0,0) ; opacity: 0;  }
+   100% { -webkit-transform: rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
+@-moz-keyframes newspaper
+{
+   0% { -moz-transform: rotate(720deg) scale(0,0) ; opacity: 0;  }
+   100% { -moz-transform: rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
+@-o-keyframes newspaper
+{
+   0% { -o-transform: rotate(720deg) scale(0,0) ; opacity: 0;  }
+   100% { -o-transform: rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
+@-ms-keyframes newspaper
+{
+   0% { -ms-transform: rotate(720deg) scale(0,0) ; opacity: 0;  }
+   100% { -ms-transform: rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
+@keyframes newspaper
+{
+   0% { transform: rotate(720deg) scale(0,0) ; opacity: 0;  }
+   100% { transform: rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
 @-webkit-keyframes transform-bounce
 {
    0% { -webkit-transform: rotate(0deg) ;  }
@@ -172,6 +197,51 @@
    60% { transform: translate(0px,-15px) rotate(0deg) ;  }
    80% { transform: translate(0px,0px) rotate(0deg) ;  }
    100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@-webkit-keyframes transform-hinge
+{
+   0% { -webkit-transform-origin: top left; -webkit-transform: rotate(0deg) ;  }
+   20% { -webkit-transform-origin: top left; -webkit-transform: rotate(80deg) ;  }
+   40% { -webkit-transform: rotate(60deg) ;  }
+   60% { -webkit-transform-origin: top left; -webkit-transform: rotate(80deg) ;  }
+   80% { opacity: 1; -webkit-transform-origin: top left; -webkit-transform: rotate(60deg) ;  }
+   100% { -webkit-transform: translate(0px,1000px) rotate(0deg) ; opacity: 0;  }
+}
+@-moz-keyframes transform-hinge
+{
+   0% { -moz-transform-origin: top left; -moz-transform: rotate(0deg) ;  }
+   20% { -moz-transform-origin: top left; -moz-transform: rotate(80deg) ;  }
+   40% { -moz-transform: rotate(60deg) ;  }
+   60% { -moz-transform-origin: top left; -moz-transform: rotate(80deg) ;  }
+   80% { opacity: 1; -moz-transform-origin: top left; -moz-transform: rotate(60deg) ;  }
+   100% { -moz-transform: translate(0px,1000px) rotate(0deg) ; opacity: 0;  }
+}
+@-o-keyframes transform-hinge
+{
+   0% { -o-transform-origin: top left; -o-transform: rotate(0deg) ;  }
+   20% { -o-transform-origin: top left; -o-transform: rotate(80deg) ;  }
+   40% { -o-transform: rotate(60deg) ;  }
+   60% { -o-transform-origin: top left; -o-transform: rotate(80deg) ;  }
+   80% { opacity: 1; -o-transform-origin: top left; -o-transform: rotate(60deg) ;  }
+   100% { -o-transform: translate(0px,1000px) rotate(0deg) ; opacity: 0;  }
+}
+@-ms-keyframes transform-hinge
+{
+   0% { -ms-transform-origin: top left; -ms-transform: rotate(0deg) ;  }
+   20% { -ms-transform-origin: top left; -ms-transform: rotate(80deg) ;  }
+   40% { -ms-transform: rotate(60deg) ;  }
+   60% { -ms-transform-origin: top left; -ms-transform: rotate(80deg) ;  }
+   80% { opacity: 1; -ms-transform-origin: top left; -ms-transform: rotate(60deg) ;  }
+   100% { -ms-transform: translate(0px,1000px) rotate(0deg) ; opacity: 0;  }
+}
+@keyframes transform-hinge
+{
+   0% { transform-origin: top left; transform: rotate(0deg) ;  }
+   20% { transform-origin: top left; transform: rotate(80deg) ;  }
+   40% { transform: rotate(60deg) ;  }
+   60% { transform-origin: top left; transform: rotate(80deg) ;  }
+   80% { opacity: 1; transform-origin: top left; transform: rotate(60deg) ;  }
+   100% { transform: translate(0px,1000px) rotate(0deg) ; opacity: 0;  }
 }
 @-webkit-keyframes transform-pulse
 {
@@ -307,6 +377,51 @@
    25% { transform: translate(-5px,0px) rotate(0deg) ;  }
    75% { transform: translate(5px,0px) rotate(0deg) ;  }
    100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@-webkit-keyframes transform-swing
+{
+   0% { -webkit-transform: rotate(0deg) ;  }
+   20% { -webkit-transform-origin: top center; -webkit-transform: rotate(15deg) ;  }
+   40% { -webkit-transform-origin: top center; -webkit-transform: rotate(-10deg) ;  }
+   60% { -webkit-transform-origin: top center; -webkit-transform: rotate(5deg) ;  }
+   80% { -webkit-transform-origin: top center; -webkit-transform: rotate(-5deg) ;  }
+   100% { -webkit-transform-origin: top center; -webkit-transform: rotate(0deg) ;  }
+}
+@-moz-keyframes transform-swing
+{
+   0% { -moz-transform: rotate(0deg) ;  }
+   20% { -moz-transform-origin: top center; -moz-transform: rotate(15deg) ;  }
+   40% { -moz-transform-origin: top center; -moz-transform: rotate(-10deg) ;  }
+   60% { -moz-transform-origin: top center; -moz-transform: rotate(5deg) ;  }
+   80% { -moz-transform-origin: top center; -moz-transform: rotate(-5deg) ;  }
+   100% { -moz-transform-origin: top center; -moz-transform: rotate(0deg) ;  }
+}
+@-o-keyframes transform-swing
+{
+   0% { -o-transform: rotate(0deg) ;  }
+   20% { -o-transform-origin: top center; -o-transform: rotate(15deg) ;  }
+   40% { -o-transform-origin: top center; -o-transform: rotate(-10deg) ;  }
+   60% { -o-transform-origin: top center; -o-transform: rotate(5deg) ;  }
+   80% { -o-transform-origin: top center; -o-transform: rotate(-5deg) ;  }
+   100% { -o-transform-origin: top center; -o-transform: rotate(0deg) ;  }
+}
+@-ms-keyframes transform-swing
+{
+   0% { -ms-transform: rotate(0deg) ;  }
+   20% { -ms-transform-origin: top center; -ms-transform: rotate(15deg) ;  }
+   40% { -ms-transform-origin: top center; -ms-transform: rotate(-10deg) ;  }
+   60% { -ms-transform-origin: top center; -ms-transform: rotate(5deg) ;  }
+   80% { -ms-transform-origin: top center; -ms-transform: rotate(-5deg) ;  }
+   100% { -ms-transform-origin: top center; -ms-transform: rotate(0deg) ;  }
+}
+@keyframes transform-swing
+{
+   0% { transform: rotate(0deg) ;  }
+   20% { transform-origin: top center; transform: rotate(15deg) ;  }
+   40% { transform-origin: top center; transform: rotate(-10deg) ;  }
+   60% { transform-origin: top center; transform: rotate(5deg) ;  }
+   80% { transform-origin: top center; transform: rotate(-5deg) ;  }
+   100% { transform-origin: top center; transform: rotate(0deg) ;  }
 }
 @-webkit-keyframes transform-tada
 {
