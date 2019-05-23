@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PlushBanshee Website</title>
+<link href="Untitled2.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_background" style="position:absolute;left:0px;top:0px;width:1902px;height:957px;z-index:0;">
+<img src="images/BansheeArt.png" id="background" alt=""></div>
+<div id="wb_rainbow" style="position:absolute;left:0px;top:84px;width:1900px;height:873px;visibility:hidden;z-index:1;">
+<img src="images/rainbow.png" id="rainbow" alt=""></div>
+<div id="wb_PlushBanshee" style="position:absolute;left:524px;top:617px;width:923px;height:105px;z-index:2;">
+<img src="images/name.png" id="PlushBanshee" alt=""></div>
+<div id="Html1" style="position:absolute;left:1435px;top:346px;width:115px;height:126px;z-index:3">
+<head>
+<script>
+<!--
+// Create an array of the links to choose from:
+var links = new Array();
+links[0] = "https://plushbanshee.github.io/index_messy";
+links[1] = "https://plushbanshee.github.io/index_scribble";
+
+function openLink() {
+  // Chooses a random link:
+  var i = Math.floor(Math.random() * links.length);
+  // Directs the browser to the chosen target:
+  parent.location = links[i];
+  return false;
+}
+//-->
+</script>
+</head>
+<body onload="openLink();">
+</body></div>
+</body>
+</html>
