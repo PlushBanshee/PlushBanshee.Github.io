@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PlushBanshee Website</title>
+<link href="Untitled2.css" rel="stylesheet">
+<link href="new_index.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_background" style="position:absolute;left:0px;top:0px;width:1902px;height:957px;z-index:0;">
+<img src="images/bg.png" id="background" alt=""></div>
+<div id="wb_rainbow" style="position:absolute;left:0px;top:84px;width:1900px;height:873px;visibility:hidden;z-index:1;">
+<img src="images/rainbow.png" id="rainbow" alt=""></div>
+<div id="wb_bg_music" style="position:absolute;left:954px;top:530px;width:53px;height:50px;z-index:2;">
+<audio src="bg_music.ogg" id="bg_music" autoplay loop>
+</audio>
+</div>
+<div id="wb_PlushBanshee" style="position:absolute;left:519px;top:257px;width:923px;height:105px;z-index:3;">
+<img src="images/name.png" id="PlushBanshee" alt=""></div>
+<div id="Html1" style="position:absolute;left:914px;top:404px;width:115px;height:126px;z-index:4">
+<head>
+<script>
+<!--
+// Create an array of the links to choose from:
+var links = new Array();
+links[0] = "https://plushbanshee.github.io/new_index";
+links[1] = "https://plushbanshee.github.io/neat_index";
+links[2] = "https://plushbanshee.github.io/blog";
+links[3] = "https://plushbanshee.github.io/index";
+
+function openLink() {
+  // Chooses a random link:
+  var i = Math.floor(Math.random() * links.length);
+  // Directs the browser to the chosen target:
+  parent.location = links[i];
+  return false;
+}
+//-->
+</script>
+</head>
+<body onload="openLink();">
+</body></div>
+</body>
+</html>
