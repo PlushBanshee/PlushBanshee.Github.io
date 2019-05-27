@@ -366,3 +366,7 @@ body
    width: 100%;
    height: 100%;
 }
+#TextArt3
+{
+   border-width: 0;
+}
