@@ -93,29 +93,6 @@ body
    width: 100%;
    height: 100%;
 }
-#loading01
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#loading02
-{
-   border: 0px solid #000000;
-   padding: 0;
-   -webkit-animation: transform-wiggle 1000ms linear 0ms infinite normal both;
-   -moz-animation: transform-wiggle 1000ms linear 0ms infinite normal both;
-   animation: transform-wiggle 1000ms linear 0ms infinite normal both;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #button_team
 {
    border: 0px solid #000000;
@@ -132,4 +109,12 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#TextArt1
+{
+   border-width: 0;
+}
+#TextArt2
+{
+   border-width: 0;
 }
