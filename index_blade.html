@@ -25,11 +25,13 @@
 </audio>
 </div>
 
-<div id="wb_img_buttonoff" style="position:absolute;left:281px;top:912px;width:184px;height:40px;z-index:6;">
+<div id="wb_img_buttonoff" style="position:absolute;left:284px;top:912px;width:184px;height:40px;z-index:6;">
 <img src="images/MenuButtonOff.png" id="img_buttonoff" alt=""></div>
-<div id="wb_img_buttonon" style="position:absolute;left:297px;top:912px;width:184px;height:40px;z-index:7;">
+<div id="wb_img_buttonon" style="position:absolute;left:434px;top:912px;width:184px;height:40px;z-index:7;">
 <img src="images/MenuButtonOn.png" id="img_buttonon" alt=""></div>
-<div id="wb_Image1" style="position:absolute;left:100px;top:122px;width:184px;height:40px;z-index:8;">
-<a href="#" onmouseover="SetImage('','');return false;"><img src="images/MenuButtonOff.png" id="Image1" alt=""></a></div>
+<div id="wb_button_home" style="position:absolute;left:100px;top:122px;width:184px;height:40px;z-index:8;">
+<a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_home','images/button_homeoff.png');return false;" onmouseover="SetImage('button_home','images/button_homeon.png');PlayAudio('sfx_highlight');return false;"><img src="images/button_homeoff.png" id="button_home" alt=""></a></div>
+<div id="wb_button_projects" style="position:absolute;left:297px;top:122px;width:184px;height:40px;z-index:9;">
+<a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_projects','images/button_projectsoff.png');return false;" onmouseover="SetImage('button_projects','images/button_projectson.png');PlayAudio('sfx_highlight');return false;"><img src="images/button_projectsoff.png" id="button_projects" alt=""></a></div>
 </body>
 </html>
