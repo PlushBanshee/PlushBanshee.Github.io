@@ -20,7 +20,7 @@
 <audio src="highlight.ogg" id="sfx_highlight" preload="auto">
 </audio>
 </div>
-<div id="wb_sfx_click" style="position:absolute;left:53px;top:907px;width:53px;height:50px;z-index:4;">
+<div id="wb_sfx_click" style="position:absolute;left:107px;top:907px;width:53px;height:50px;z-index:4;">
 <audio src="click.ogg" id="sfx_click" preload="auto">
 </audio>
 </div>
@@ -32,10 +32,10 @@
 <div id="wb_button_home" style="position:absolute;left:100px;top:122px;width:184px;height:40px;z-index:8;">
 <a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_home','images/button_homeoff.png');return false;" onmouseover="SetImage('button_home','images/button_homeon.png');PlayAudio('sfx_highlight');return false;"><img src="images/button_homeoff.png" id="button_home" alt=""></a></div>
 <div id="wb_button_projects" style="position:absolute;left:297px;top:122px;width:184px;height:40px;z-index:9;">
-<a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_projects','images/button_projectsoff.png');return false;" onmouseover="SetImage('button_projects','images/button_projectson.png');PlayAudio('sfx_highlight');return false;"><img src="images/button_projectsoff.png" id="button_projects" alt=""></a></div>
-<div id="wb_loading01" style="position:absolute;left:0px;top:0px;width:1902px;height:957px;z-index:10;">
+<a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_projects','images/button_projectsoff.png');return false;" onmouseover="SetImage('button_projects','images/button_projectson.png');PlayAudio('sfx_highlight2');return false;"><img src="images/button_projectsoff.png" id="button_projects" alt=""></a></div>
+<div id="wb_loading01" style="position:absolute;left:0px;top:0px;width:1902px;height:957px;visibility:hidden;z-index:10;">
 <img src="images/BG.png" id="loading01" alt=""></div>
-<div id="wb_loading02" style="position:absolute;left:276px;top:182px;width:200px;height:200px;z-index:11;">
+<div id="wb_loading02" style="position:absolute;left:276px;top:182px;width:200px;height:200px;visibility:hidden;z-index:11;">
 <img src="images/loading.png" id="loading02" alt=""></div>
 <script>
 var wb_loading03;
@@ -56,22 +56,28 @@ TimerStartloading03();
 </script>
 
 <script>
-var wb_Timer1;
-function TimerStartTimer1()
+var wb_loading04;
+function TimerStartloading04()
 {
-   wb_Timer1 = setInterval(function()
+   wb_loading04 = setInterval(function()
    {
       var event = null;
       TimerStoploading03();
       ShowObject('wb_loading01', 0);
    }, 3000);
 }
-function TimerStopTimer1()
+function TimerStoploading04()
 {
-   clearInterval(wb_Timer1);
+   clearInterval(wb_loading04);
 }
-TimerStartTimer1();
+TimerStartloading04();
 </script>
 
+<div id="wb_button_team" style="position:absolute;left:493px;top:122px;width:184px;height:40px;z-index:14;">
+<a href="#" onclick="PlayAudio('sfx_click');return false;" onmouseleave="SetImage('button_team','images/button_teamoff.png');return false;" onmouseover="SetImage('button_team','images/button_teamon.png');PlayAudio('sfx_highlight');return false;"><img src="images/button_teamoff.png" id="button_team" alt=""></a></div>
+<div id="wb_sfx_highlight2" style="position:absolute;left:54px;top:907px;width:53px;height:50px;z-index:15;">
+<audio src="highlight.ogg" id="sfx_highlight2" preload="auto">
+</audio>
+</div>
 </body>
 </html>
