@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
+   background-color: transparent;
    color: #FFFFFF;
    font-family: "MS Sans Serif";
    font-weight: normal;
@@ -9,7 +9,7 @@ body
    margin: 0;
    padding: 0;
 }
-#background
+#img_bg
 {
    border: 0px solid #000000;
    padding: 0;
@@ -19,9 +19,116 @@ body
    width: 100%;
    height: 100%;
 }
-#PlushBanshee
+#img_bar
 {
    border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#img_squre
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#sfx_highlight
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#sfx_click
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#img_buttonoff
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#img_buttonon
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_home
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_projects
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_team
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#sfx_highlight2
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#TextArt1
+{
+   border-width: 0;
+}
+#TextArt2
+{
+   border-width: 0;
+}
+#MediaPlayer1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1
+{
+   border: 8px dashed #000000;
+   border-radius: 8px;
    padding: 0;
    margin: 0;
    left: 0;
