@@ -1,0 +1,102 @@
+<style>
+        .ui-selected {
+			color: white;
+			background-color: #8A8A8A;
+			font-size: 15px;
+        }
+        .ui-selecting {
+			color: white; 
+			background-color: #8A8A8A;
+			font-size: 15px;
+        }
+		.elementList li {
+			font-size: 15px;
+		}
+		.jj_menu_item {
+			font-family: Lancelot;
+			font-size: 16px;
+		}
+		div#gamePanes {		
+			background: none;
+		}		
+		#gamePanesRunning .ui-widget-content {
+			background: none;
+		}
+	
+		.ui-accordion .ui-accordion-header {
+			font-size: 15px !important;
+		}
+		.ui-accordion h3 {		
+			border-radius: 1px;
+			border: none;
+			background: #F0F0E0 url("ui-bg_inset-hard_100_F0F0E0_1x100.png") 50% 50% repeat-x;
+			font-size: 15px !important;
+		}
+		.ui-accordion div {		
+			border-radius: 1px;
+			border: none;
+		}	
+		#txtCommandDiv a {
+			color:#6B4B78;
+			font-family:Lancelot;
+		}
+		#inventoryLabel span {
+			color: #5C5B5D;
+		}
+		#inventoryLabel  {
+			color: #5C5B5D;
+		}
+		#gamePanesRunning {
+			font-family: Lancelot;
+			font-size: 15px;
+		}
+		#placesObjectsLabel span {
+			color: #5C5B5D;
+		}
+		#compassLabel span {
+			color: #5C5B5D;
+		}
+		.ui-icon {
+			background-image: url("ui-icons_A0A060_256x240.png") !important;
+		}
+		#status {
+			background-image: url("ui-bg_gloss-wave_55_b7b2af_500x100.png");
+			border-color: gray;
+			font-family: Lancelot;
+		}
+		.verbButtons .ui-button {
+			font-size: 13px !important;	
+			margin: 3px !important;				
+			border-style: outset;
+		}
+		button.ui-button {
+			font-family: Lancelot;
+			font-size: 13px !important;
+		}
+		.ui-button {			
+			color: black !important;					
+			border-radius: 1px;
+			background-image: url("ui-bg_glass_85_C0C080_1x400.png") !important;			
+		}
+		.ui-button-text-only .ui-button-text {
+			padding:5px;
+		}
+		.ui-button-text {
+			padding:5px;
+		}	
+		#compassTable {
+		}
+		#txtCommandDiv a {
+			color: DarkGoldenRod;
+			font-size: 14px;
+			font-family: Lancelot;
+		}		
+        .ui-widget-header {
+			background-image: url("ui-bg_gloss-wave_55_b7b2af_500x100.png");
+			border-color: gray;
+			font-family: Lancelot;
+		}
+		div.pane {
+			background:none;
+		}
+	</style>
