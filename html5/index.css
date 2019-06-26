@@ -1,6 +1,10 @@
 body
 {
    background-color: #FFFFFF;
+   background-image: url(images/e2909aab62a0d9f7a4dcd095d2bdf069.gif);
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
