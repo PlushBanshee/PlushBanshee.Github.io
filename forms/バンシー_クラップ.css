@@ -20,3 +20,16 @@ body
    margin: 0;
    text-align: center;
 }
+#Line1
+{
+   border-color: #00FFFF;
+   border-style: dotted;
+   border-bottom-width: 11px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
