@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url(images/BansheeFormBG.png);
+   background-image: url(images/BansheeFormBG2.png);
    background-attachment: scroll;
    background-position: left top;
    background-repeat: repeat;
@@ -22,7 +22,7 @@ body
 }
 #Line1
 {
-   border-color: #00FFFF;
+   border-color: #FF00FF;
    border-style: dotted;
    border-bottom-width: 11px;
    border-top: 0px;
