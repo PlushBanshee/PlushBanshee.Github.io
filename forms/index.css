@@ -66,7 +66,7 @@ body
    text-align: center;
    vertical-align: top;
    width: 278px;
-   height: 46px;
+   height: 53px;
 }
 #Table1 .cell1
 {
@@ -86,7 +86,7 @@ body
    border-left-color: #F0F0F0;
    text-align: left;
    vertical-align: top;
-   height: 46px;
+   height: 53px;
 }
 #Table1 .cell2
 {
@@ -107,6 +107,26 @@ body
    text-align: left;
    vertical-align: top;
    width: 278px;
+   height: 46px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #F0F0F0;
+   border-right-color: #A0A0A0;
+   border-bottom-color: #A0A0A0;
+   border-left-color: #F0F0F0;
+   text-align: left;
+   vertical-align: top;
    height: 46px;
 }
 #wb_Text1 
