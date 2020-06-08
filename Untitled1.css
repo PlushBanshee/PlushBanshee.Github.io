@@ -85,6 +85,21 @@
    50% { transform: rotate(0deg) scale(1.1,1.1) ;  }
    100% { transform: rotate(0deg) scale(1.0,1.0) ;  }
 }
+@-webkit-keyframes transform-rotate
+{
+   0% { -webkit-transform: rotate(0deg) ;  }
+   100% { -webkit-transform: rotate(359deg) ;  }
+}
+@-moz-keyframes transform-rotate
+{
+   0% { -moz-transform: rotate(0deg) ;  }
+   100% { -moz-transform: rotate(359deg) ;  }
+}
+@keyframes transform-rotate
+{
+   0% { transform: rotate(0deg) ;  }
+   100% { transform: rotate(359deg) ;  }
+}
 @-webkit-keyframes transform-shake
 {
    0% { -webkit-transform: rotate(0deg) ;  }
@@ -174,16 +189,20 @@
 }
 a
 {
-   color: #0000FF;
-   text-decoration: underline;
+   color: #FF00FF;
+   text-decoration: none;
 }
 a:visited
 {
-   color: #800080;
+   color: #000000;
+}
+a:active
+{
+   color: #FFFFFF;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #FF00FF;
    text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
