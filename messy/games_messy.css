@@ -1,0 +1,152 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   font-family: "MS Sans Serif";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#background
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   -moz-animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#rainbow
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: transform-diagonal 1000ms linear 0ms infinite normal both;
+   -moz-animation: transform-diagonal 1000ms linear 0ms infinite normal both;
+   animation: transform-diagonal 1000ms linear 0ms infinite normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Button_Home
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Sound_Melting
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MediaPlayer1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_CssMenu1
+{
+   border: 0px solid #FF00FF;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 140px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   background-color: #00FFFF;
+   background-image: none;
+   font-family: Impact;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: normal;
+   text-decoration: none;
+   width: 128px;
+   height: 53px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 53px;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FFFFFF;
+   background-color: #FE00FE;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#MediaPlayer2
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
