@@ -96,6 +96,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
+   -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
+   -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
+   animation: transform-pulse 1000ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
@@ -397,6 +400,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
+   -webkit-animation: turbine-in 1000ms linear 0ms infinite normal both;
+   -moz-animation: turbine-in 1000ms linear 0ms infinite normal both;
+   animation: turbine-in 1000ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;

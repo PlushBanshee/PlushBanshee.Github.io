@@ -67,6 +67,24 @@
    50% { transform: perspective(1px) rotateX(0deg) scale3d(0.8,0.8,0.8) ;  }
    100% { transform: perspective(1px) rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
+@-webkit-keyframes transform-pulse
+{
+   0% { -webkit-transform: rotate(0deg) ;  }
+   50% { -webkit-transform: rotate(0deg) scale(1.1,1.1) ;  }
+   100% { -webkit-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@-moz-keyframes transform-pulse
+{
+   0% { -moz-transform: rotate(0deg) ;  }
+   50% { -moz-transform: rotate(0deg) scale(1.1,1.1) ;  }
+   100% { -moz-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@keyframes transform-pulse
+{
+   0% { transform: rotate(0deg) ;  }
+   50% { transform: rotate(0deg) scale(1.1,1.1) ;  }
+   100% { transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
 @-webkit-keyframes transform-shake
 {
    0% { -webkit-transform: rotate(0deg) ;  }
@@ -127,18 +145,49 @@
    50% { transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
    100% { transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
+@-webkit-keyframes turbine-in
+{
+   0% { -webkit-transform: translate(0px,-200px) rotate(0deg) scale(1,1) ; opacity: 0;  }
+   10% { -webkit-transform: translate(0px,-75px) rotate(360deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   20% { -webkit-transform: translate(0px,-50px) rotate(3600deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { opacity: 0.8; -webkit-transform: translate(0px,-25px) rotate(36000deg) scale(1.0,1.0) ;  }
+   50% { opacity: 1;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(180deg) scale(1,1) ;  }
+}
+@-moz-keyframes turbine-in
+{
+   0% { -moz-transform: translate(0px,-200px) rotate(0deg) scale(1,1) ; opacity: 0;  }
+   10% { -moz-transform: translate(0px,-75px) rotate(360deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   20% { -moz-transform: translate(0px,-50px) rotate(3600deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { opacity: 0.8; -moz-transform: translate(0px,-25px) rotate(36000deg) scale(1.0,1.0) ;  }
+   50% { opacity: 1;  }
+   100% { -moz-transform: translate(0px,0px) rotate(180deg) scale(1,1) ;  }
+}
+@keyframes turbine-in
+{
+   0% { transform: translate(0px,-200px) rotate(0deg) scale(1,1) ; opacity: 0;  }
+   10% { transform: translate(0px,-75px) rotate(360deg) scale(1.0,1.0) ; opacity: 0.4;  }
+   20% { transform: translate(0px,-50px) rotate(3600deg) scale(1.0,1.0) ; opacity: 0.6;  }
+   30% { opacity: 0.8; transform: translate(0px,-25px) rotate(36000deg) scale(1.0,1.0) ;  }
+   50% { opacity: 1;  }
+   100% { transform: translate(0px,0px) rotate(180deg) scale(1,1) ;  }
+}
 a
 {
-   color: #0000FF;
-   text-decoration: underline;
+   color: #FF00FF;
+   text-decoration: none;
 }
 a:visited
 {
-   color: #800080;
+   color: #000000;
+}
+a:active
+{
+   color: #FFFFFF;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #FF00FF;
    text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
