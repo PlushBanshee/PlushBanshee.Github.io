@@ -936,3 +936,47 @@ body
    border-width: 0;
    vertical-align: top;
 }
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon1
+{
+   height: 247px;
+   width: 160px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #FF00FF;
+   display: inline-block;
+   font-size: 160px;
+   line-height: 247px;
+   vertical-align: middle;
+   width: 113px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #00FFFF;
+}
+#wb_TextArt3
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#TextArt3
+{
+   border-width: 0;
+   vertical-align: top;
+}
