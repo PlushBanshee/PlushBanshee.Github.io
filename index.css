@@ -1132,3 +1132,50 @@ body
    width: 100%;
    height: 100%;
 }
+#Table2
+{
+   border: 2px solid #C0C0C0;
+   background-color: transparent;
+   background-image: url(images/index_Table2_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table2 td
+{
+   padding: 0;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 28px;
+   color: #000000;
+   font-family: "Comic Sans MS";
+   font-size: 20px;
+   line-height: 28px;
+}
+#wb_TextArt5
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#TextArt5
+{
+   border-width: 0;
+   vertical-align: top;
+}
