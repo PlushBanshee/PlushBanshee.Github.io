@@ -189,20 +189,16 @@
 }
 a
 {
-   color: #FF00FF;
-   text-decoration: none;
+   color: #0000FF;
+   text-decoration: underline;
 }
 a:visited
 {
-   color: #000000;
-}
-a:active
-{
-   color: #FFFFFF;
+   color: #800080;
 }
 a:hover
 {
-   color: #FF00FF;
+   color: #0000FF;
    text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
