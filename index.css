@@ -200,6 +200,19 @@ body
    font-size: 13px;
    line-height: 19px;
 }
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 46px;
+   color: #FF00FF;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
 #wb_Image5
 {
    vertical-align: top;
