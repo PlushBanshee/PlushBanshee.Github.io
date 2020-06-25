@@ -1633,6 +1633,9 @@ body
 {
    border: 0px solid #000000;
    padding: 0;
+   -webkit-animation: transform-wiggle 50000ms linear 0ms infinite normal both;
+   -moz-animation: transform-wiggle 50000ms linear 0ms infinite normal both;
+   animation: transform-wiggle 50000ms linear 0ms infinite normal both;
    margin: 0;
    left: 0;
    top: 0;
