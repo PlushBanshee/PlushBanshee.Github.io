@@ -5298,7 +5298,7 @@ Neo.SubmitCommand.prototype.execute = function() {
 Neo.CopyrightCommand = function(data) {this.data = data};
 Neo.CopyrightCommand.prototype = new Neo.CommandBase();
 Neo.CopyrightCommand.prototype.execute = function() {
-    var url = "http://github.com/funige/neo/";
+    var url = "http://github.com/plushbanshee";
     if (confirm(Neo.translate("PaintBBS NEOは、お絵描きしぃ掲示板 PaintBBS (©2000-2004 しぃちゃん) をhtml5化するプロジェクトです。\n\nPaintBBS NEOのホームページを表示しますか？") + "\n")) {
         Neo.openURL(url);
     }

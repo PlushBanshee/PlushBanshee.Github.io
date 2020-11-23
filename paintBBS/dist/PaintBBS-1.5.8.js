@@ -5987,7 +5987,7 @@ Neo.CopyrightCommand = function (data) {
 };
 Neo.CopyrightCommand.prototype = new Neo.CommandBase();
 Neo.CopyrightCommand.prototype.execute = function () {
-  var url = "http://github.com/funige/neo/";
+  var url = "http://github.com/plushbanshee";
   if (
     confirm(
       Neo.translate(
